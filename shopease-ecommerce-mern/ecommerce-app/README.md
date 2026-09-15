@@ -88,20 +88,14 @@ ecommerce-app/
   - [MongoDB Community Server](https://www.mongodb.com/try/download/community) running locally, **or**
   - A free [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) cluster
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/<your-username>/<your-repo-name>.git
-cd <your-repo-name>
-```
-
-### 2. Install dependencies
+### 1. Install dependencies
 From the project root, install both the backend and frontend in one go:
 ```bash
 npm run install-all
 ```
 (or manually: `cd backend && npm install`, then `cd ../frontend && npm install`)
 
-### 3. Configure environment variables
+### 2. Configure environment variables
 Copy the example env file and fill in your own values:
 ```bash
 cd backend
@@ -202,16 +196,3 @@ All endpoints are prefixed with `/api`.
 - [ ] Log in as the seeded admin and: add a product with images, edit it, update an order's status, change a user's role
 
 ---
-
-## 🎥 Demo Video & Submission
-
-This README covers the source code. For your assignment submission, remember to:
-1. Push this repository to GitHub with this README.
-2. Record a short screen-capture walking through: registration/login, browsing & search, cart & checkout, order history, and the admin panel (products/orders/users).
-3. Post the video on LinkedIn with a short write-up (project overview, tech stack, key features, and a link to this GitHub repo), tagging your instructors.
-
----
-
-## 📄 License
-
-This project was built for educational purposes as part of a course assignment.
